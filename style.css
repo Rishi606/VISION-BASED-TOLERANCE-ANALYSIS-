@@ -1,0 +1,62 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #eee;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 4px;
+}
+
+.hint {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+img {
+  width: 100%;
+  max-width: 480px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+button {
+  padding: 14px 20px;
+  font-size: 16px;
+  margin: 6px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#masterBtn {
+  background: #1e88e5;
+  color: white;
+}
+
+#productBtn {
+  background: #2e7d32;
+  color: white;
+}
+
+button:disabled {
+  background: #555;
+}
+
+#status {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
